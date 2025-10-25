@@ -1,0 +1,14 @@
+import java.util.*;
+import java.util.stream.Stream;
+class revesreString {
+    public static void main(String[] args) {
+     
+     int num=12345;
+     int sum=String.valueOf(12345).chars()
+     
+     .map(ch->Character.getNumericValue(ch))//(ch-'0')
+     .sum();
+     System.out.println(sum);    
+          
+    }
+}
